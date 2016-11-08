@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="app.vectorviews.MainActivity">
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.github.akashandroid90.vectorview.VectorCompatAutoCompleteTextView
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VectorCompatAutoCompleteTextView"
+            android:drawableLeft="@drawable/ic_cloud_black"
+            app:tint="@android:color/holo_green_light" />
+        <com.github.akashandroid90.vectorview.VectorCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VectorCompatEditText"
+            android:drawableTop="@drawable/ic_cloud_black"
+            app:tint="@color/colorAccent" />
+        <com.github.akashandroid90.vectorview.VectorCompatCheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VectorCompatCheckBox"
+            android:button="@drawable/ic_cloud_black"
+            android:drawableRight="@drawable/ic_cloud_black"
+            app:tint="@color/colorPrimaryDark"/>
+        <com.github.akashandroid90.vectorview.VectorCompatCheckedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="VectorCompatCheckedTextView"
+            android:drawableBottom="@drawable/ic_cloud_black"
+            app:tint="@android:color/holo_green_dark" />
+        <com.github.akashandroid90.vectorview.VectorCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VectorCompatEditText"
+            android:drawableLeft="@drawable/ic_cloud_black"
+            app:tint="@android:color/holo_red_dark"/>
+        <com.github.akashandroid90.vectorview.VectorCompatMultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VectorCompatMultiAutoCompleteTextView"
+            android:drawableTop="@drawable/ic_cloud_black"
+            app:tint="@color/colorPrimary"/>
+        <com.github.akashandroid90.vectorview.VectorCompatRadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VectorCompatRadioButton"
+            android:drawableRight="@drawable/ic_cloud_black"
+            app:tint="@android:color/holo_red_light"/>
+        <com.github.akashandroid90.vectorview.VectorCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VectorCompatTextView"
+            android:drawableBottom="@drawable/ic_cloud_black"
+            app:tint="@android:color/holo_blue_light"/>
+        <com.github.akashandroid90.vectorview.VectorSwitchCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VectorSwitchCompat"
+            android:drawableLeft="@drawable/ic_cloud_black"
+            app:tint="@android:color/holo_blue_bright"/>
+    </LinearLayout>
+</ScrollView>
+
